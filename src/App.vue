@@ -9,6 +9,8 @@
     <router-link :to="{ name: 'WatchEffectsPage' }">Watch Effects Page</router-link> |
     <router-link :to="{ name: 'PropParentPage' }">Props Parent Page</router-link> |
     <router-link :to="{ name: 'EventParentPage' }">Event Parent Page</router-link> |
+    <router-link :to="{ name: 'InjectParentPage' }">Inject Parent Page</router-link> |
+    <router-link :to="{ name: 'FinalPage' }">Final Page</router-link> |
   </div>
   <router-view />
 </template>

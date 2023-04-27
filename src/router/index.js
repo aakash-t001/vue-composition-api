@@ -44,6 +44,16 @@ const router=createRouter({
             name:'EventParentPage',
             component:import('../components/EventParentPage')
         },
+        {
+            path:'/inject-parent',
+            name:'InjectParentPage',
+            component:import('../components/InjectParentPage')
+        },
+        {
+            path:'/final-page',
+            name:'FinalPage',
+            component:import('../components/FinalPage')
+        },
     ]
 })
 export default router

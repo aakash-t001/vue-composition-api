@@ -1,7 +1,9 @@
 <template>
-  <h3>This is Event Parent Page  </h3>
-  <button @click="isMenuOpen = true">Open Menu</button>
-  <EventChildPage v-show="isMenuOpen" @closeMenu="isMenuOpen =false"/>
+  <div>
+    <h3>This is Event Parent Page  </h3>
+    <button @click="isMenuOpen = true">Open Menu</button>
+    <EventChildPage v-show="isMenuOpen" @closeMenu="isMenuOpen =false"/>
+  </div>
 </template>
 <script>
 import {ref} from 'vue';

@@ -1,6 +1,8 @@
 <template>
-<h2>This is Child Page</h2>
-  <button @click="sendEvent">Close Menu</button>
+  <div>
+    <h2>This is Child Page</h2>
+    <button @click="sendEvent">Close Menu</button>
+  </div>
 </template>
 <script>
 export default {

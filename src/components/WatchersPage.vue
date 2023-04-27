@@ -20,7 +20,7 @@ import {ref,watch} from 'vue'
 export default {
   setup(){
 //     //watch Single data
-let message=ref('hdd')
+let message=ref('')
     watch(message,(newvalue,oldvalue)=>{
   console.log('New Value:',newvalue)
   console.log('Old Value', oldvalue)
