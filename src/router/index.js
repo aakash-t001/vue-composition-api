@@ -54,6 +54,11 @@ const router=createRouter({
             name:'FinalPage',
             component:import('../components/FinalPage')
         },
+        {
+            path:'/async-page',
+            name:'AsyncComp',
+            component:import('../components/AsyncComp')
+        },
     ]
 })
 export default router
