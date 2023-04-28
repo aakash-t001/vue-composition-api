@@ -59,6 +59,11 @@ const router=createRouter({
             name:'AsyncComp',
             component:import('../components/AsyncComp')
         },
+        {
+            path:'/js-page',
+            name:'JsPromiseComp',
+            component:import('../components/JsPromiseComp')
+        },
     ]
 })
 export default router

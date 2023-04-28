@@ -1,7 +1,8 @@
 <template>
   <div>
 <!--        <button @click="isLecture46Visible = true">#46 - Composition API Basics</button> |-->
-    <button @click="isLecture47Visible = true">#47 - Async</button>
+    <button @click="isLecture47Visible = true">#47 - Async, Lazy Loading & Suspense</button>
+<!--    <button @click="isJsVisible = true">Js</button>-->
 <!--    <button @click="()=>{isLecture48Visible = !isLecture48Visible, isLecture46Visible=false,isLecture47Visible=false,isLecture50Visible=false}">#48 - Routing (Composition API)</button> |-->
 <!--    <button @click="()=>{isLecture50Visible = !isLecture50Visible, isLecture46Visible=false,isLecture47Visible=false,isLecture48Visible=false}">Composables - Mixins (Composition API)  </button> |-->
 <!--    <button @click="clearAll">Clear All</button>-->
@@ -23,6 +24,10 @@
     <h2>#47 - Async, Lazy Loading & Suspense (Composition API) </h2>
     <router-link :to="{ name: 'AsyncComp' }">Async Page</router-link> |
   </div>
+<!--  <div v-show="isJsVisible">-->
+<!--    <h2>Js</h2>-->
+<!--    <router-link :to="{ name: 'JsPromiseComp' }">Js Promise</router-link> |-->
+<!--  </div>-->
 
 <!--  <div v-if="isLecture48Visible">-->
 <!--    <h2>#48 - Routing (Composition API)  </h2>-->
@@ -39,6 +44,7 @@
 import {ref} from 'vue'
 // let isLecture46Visible = ref(false)
 let isLecture47Visible = ref(false)
+// let isJsVisible = ref(false)
 // let isLecture48Visible = ref(false)
 // let isLecture50Visible = ref(false)
 // function clearAll() {
